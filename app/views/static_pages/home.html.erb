@@ -1,4 +1,14 @@
-<h1>Microposter Refresher</h1>
-<p>
-  Because I haven't done Rails for a year and need to remind myself some things.
-</p>
+<div class="center jumbotron">
+  <h1>Microposter Refresher</h1>
+
+  <h2>
+    Because I haven't done Rails for a year and need to remind myself some things.
+  </h2>
+
+  <%= link_to "Sign up now!", 'signup_path', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+            
+<%= image_tag("kitten.jpg", alt: "Kitten") %>
